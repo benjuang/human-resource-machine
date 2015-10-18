@@ -1,0 +1,46 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- NOTE: This does not qualify for the speed challenge.
+
+a:
+    INBOX   
+    JUMPN    b
+    COMMENT  0
+    INBOX   
+    JUMPN    c
+    JUMP     e
+    COMMENT  2
+b:
+    COMMENT  1
+    INBOX   
+    JUMPN    d
+c:
+    COPYFROM 5
+    JUMP     f
+d:
+e:
+    COPYFROM 4
+    COMMENT  3
+f:
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE COMMENT 0
+eJwTZ2BgWGsYUuMe7lliGudZAuQydM7VinOdrh3PMNEsPbXbpXB/p2/5wY7oxoMdSW3CXVk9sX0lk/9N
+LJ/aObd0yu15hRPrFsY1ly1xyJNf6lZUsjSy4cCKwol7VxZPYhgFo2AUDHoAANeTJ48;
+
+DEFINE COMMENT 1
+eJxTZmBguO5YMOGic26fVlJuX2F6ZvfagvQuoDCDawS/98wIrTj7KNucKVGBVVYxJZMfx+w6CpK7vDCk
+5vJCs3SthYbJ+vP1k3rmmKQ6zXDI+zE5qPrfxNQOhonlUxkm1s9eObF1vv/kzkWu0zsXOc1oW3B3buHE
+uoXRjRcWeZaULUlqO7qseBL/6rYF7OsmLGcYBaNgFNAdAADN4j1A;
+
+DEFINE COMMENT 2
+eJxTZGBgKHL/binn/sfmvp1ihKe5Qx6XfkzTHIlDp5eIXr0BlGZ4HJPWuTs7rVO6PaEVxH+/zaXw/Tb7
+XM+tNtnBG21z0la5Fx9Y4VsutTy0tnBZUlvhsoppUstrZu5Y3bZg7fq2Bc7bUzum7ohper7Tu8xyd0Lr
+nb2FE6sO1c8WO9GxcM/JjoUMo2AUjIIBAwCLkjxx;
+
+DEFINE COMMENT 3
+eJxTYmBgWBjK4eYfwuV+0NM0ba1h6/zDmku3HdVYth0oxTCjQj/pU9m2QyD2ibSSyez5JZOXT0pqA/E1
+D5qkNhzQjn+1QyvOe4tJavBG25zI9V6lPGty+3jWdC1mWT9xxaLNE1c839m2QPtATu/JI34VEsetsySO
+a8VJHE/vEjtRM3PPyZ4lW85MX8MwCkbBKBgQAABUYzqf;
+

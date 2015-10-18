@@ -1,0 +1,27 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- NOTE: This does not qualify for the size challenge.
+-- NOTE: This does not qualify for the speed challenge.
+
+a:
+    INBOX   
+    COPYTO   0
+b:
+    INBOX   
+    JUMPZ    e
+    COPYTO   1
+    SUB      0
+    JUMPN    c
+    COPYFROM 0
+    COPYTO   1
+    JUMP     d
+c:
+    COPYFROM 1
+    COPYTO   0
+d:
+    JUMP     b
+e:
+    COPYFROM 1
+    OUTBOX  
+    JUMP     a
+
+

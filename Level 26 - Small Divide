@@ -1,0 +1,43 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- NOTE: This does not qualify for the size challenge.
+-- NOTE: This does not qualify for the speed challenge.
+
+a:
+    COPYFROM 9
+    COPYTO   2
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    COPYFROM 0
+b:
+    SUB      1
+    COPYTO   0
+    JUMPN    c
+    BUMPUP   2
+    COPYFROM 0
+    JUMP     b
+c:
+    COPYFROM 2
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJzjYmBgkMoQ9vMsi27k7t12CMhl4OiTDNreIxkUWFw+dXf2jLWHM1bvYhgFo2AUDEsAAC8fDhM;
+
+DEFINE LABEL 1
+eJxTYGBgOJ16TVE+7aX+4QzJoJScksk8uRXT0rJTOwrTPUtUUywyXkRJBX8IF/b7ESLowxYgGcTtpxIV
+7+dezBYQ08QQlNP7Ibxggnls+VTVlKrpZak1M4FGMjyptsxsaJyyCsR2K39jCKLX91tkrJkQVD1n2sQV
+E2eldrTNcytioBDkrFCLllmmFl22RDv+wiKLjAuLwutklmV2h22omzVje/M8Ss0fBaNguAMAf8I+vQ;
+
+DEFINE LABEL 2
+eJxTZWBgCA1K7Uj1SW7P8krrlPDM6ZX2KJl83H32ejGvJVuTfFfsYAtYscMrbMZa14gJy2dG1M36EF41
+3T+kcCJQK0NkQVLb6sK6Wb+KZ6xdXLJm96zytXueV63eZVw3f5NmU+v82qaq6WrNpVPUmpPbq5o7F8m1
+rdgB0mc075/dhUXpXaqLl2wF8b2mOuQpLXHI27zWOothFIyCUUA3AABzG0CO;
+
+DEFINE LABEL 9
+eJxTZWBgMK4T8nWsFPabWyYV/L1EOfJPkUnqiiLvsgWlBRMcK3uWPKmesba1ftGWgx2rd+3sXr2LecLK
+ncsnLdzsNXXKKvdpNTPdp6V1ek31LV8zQTY0ql8sIKmHz0u6nd1Vrfmf3c36f3a9Nb+sX1X+tZ1Rwe4K
+tI7Bfdojrf2dvuVH2kNrC9pjmk62pnZcaWxbYFe17ZBn2dUbDKNgFIwCugEAqfVFCA;
+

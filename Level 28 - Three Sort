@@ -1,0 +1,56 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- NOTE: This does not qualify for the size challenge.
+-- NOTE: This does not qualify for the speed challenge.
+
+a:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    INBOX   
+    COPYTO   2
+    SUB      1
+    JUMPN    b
+    COPYFROM 2
+    COPYTO   3
+    COPYFROM 1
+    COPYTO   2
+    COPYFROM 3
+    COPYTO   1
+b:
+    COPYFROM 1
+    SUB      0
+    JUMPN    c
+    COPYFROM 1
+    COPYTO   3
+    COPYFROM 0
+    COPYTO   1
+    COPYFROM 3
+    COPYTO   0
+c:
+    COPYFROM 2
+    SUB      1
+    JUMPN    d
+    COPYFROM 2
+    COPYTO   3
+    COPYFROM 1
+    COPYTO   2
+    COPYFROM 3
+    COPYTO   1
+d:
+    COPYFROM 2
+    OUTBOX  
+    COPYFROM 1
+    OUTBOX  
+    COPYFROM 0
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 3
+eJwzYmBg8DM1S/cz7V0KZDII6UTU1zpHN4LYUQElk+2jSib3xeT1P46JbpwSFVobFBxYFe8X15zkm9aZ
+5Nu2INZ/xtrQoHkbvcLmbZwWOX0NSJ94pl9FZlb97MysGWvTsnuXpuQUTkzMzeyOzo9p+lMUWvurOLrR
+u7Rq+tyyrsW9NTFNHXUR9TfrY5quNBZMqG1qnAMyY/mk0Fr/yX++gNgLpyS3z5sa3Xh2cXTj6SVxzVLL
+K6YdXj5h+dFlk1fWLZyx9t30WesYqAw65ya1PZ6d3G41O7O7b3bFtNvzuhbfmD9l1Y35s9c/mLNwM0jN
+gi16id5bohv/bJy2GsTfvDa5nWV9QuvznQmt1HbPKBgFtAIA3IF3OA;
+

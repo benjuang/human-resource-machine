@@ -1,0 +1,85 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- NOTE: This does not qualify for the size challenge.
+-- NOTE: This does not qualify for the speed challenge.
+
+a:
+    COPYFROM 24
+    COPYTO   20
+    COPYTO   21
+b:
+    INBOX   
+    COPYTO   [20]
+    JUMPZ    c
+    BUMPUP   20
+    JUMP     b
+c:
+d:
+    COPYFROM 24
+    COPYTO   20
+e:
+f:
+g:
+    COPYFROM [20]
+    JUMPZ    i
+    COPYTO   22
+    BUMPUP   20
+    COPYFROM [20]
+    JUMPZ    h
+    SUB      22
+    JUMPN    f
+    JUMPZ    g
+    BUMPUP   21
+    COPYFROM [20]
+    COPYTO   23
+    COPYFROM 22
+    COPYTO   [20]
+    BUMPDN   20
+    COPYFROM 23
+    COPYTO   [20]
+    BUMPUP   20
+    JUMP     e
+h:
+i:
+    COPYFROM 21
+    JUMPZ    j
+    SUB      21
+    COPYTO   21
+    JUMP     d
+j:
+    COMMENT  0
+    BUMPDN   20
+k:
+    COPYFROM [20]
+    OUTBOX  
+    BUMPDN   20
+    JUMPN    a
+    JUMP     k
+
+
+DEFINE COMMENT 0
+eJxTZGBg+BDuUugV5lLoG+pezBAUXrcmsGBCaFDFNP+Qprn2UU1zWxJKp6gnZ/VUpoTUVKb4VWgluRff
+jXMusI9yygdqZ9iQb5IaXJTc/r2kdIpjZekU6+q8/otNvuWlrZaZJ1sDKnM7iieB1N2d+9fWdG7HQhA7
+tk87fvNa7fje3RqxDKNgFIyCAQMAmZkzTQ;
+
+DEFINE LABEL 20
+eJxjZWBg8C51K2Ip2HcCyGSYUfHXlmEUjIJRMGIAANw+BcI;
+
+DEFINE LABEL 21
+eJwTYWBg8CsR9f9ewu76qeyX9ZuKT6ZPqt8bG9a/N65t+mx2vvm75clWdle5Nvmw0lb1mK5az5JJVYFV
+ryrD6xwrUzueV+X1P6mungE0huFK497jDKNgFIyCIQUAfQAkag;
+
+DEFINE LABEL 22
+eJxzZGBgmGvO4znXXDve26xqup/pxBWRhkfPAoUZpDSd8pscnfJL3exzQfwtfh0LmQN7l84Lm7xyYvSU
+VeaxE1foJ1RN109I6zSKT2i1j4ps+BAe2fAjJL5lTWBOb7xf79LtvgdOxvsdPxceeOaSU+SZS23xELPX
+FoTXrSjadyKweOeRwOJl27+Ulkz+VJbZ/aYiqe1JdVJbU0P5VM2mjoUXm1buPNgR3SjQHdmQ1BPTtL6/
+eFLQpCVbQWbsWJ3Zzb5uyqrI9UfPRq5//Ih9HctvkPjuVUHVTfsDKs8cDqnJPR7TJHwyr5/vdNX07ac7
+Fm4/PW116ql5GwuOLdlqtmfJ1gVbFm5mGAWjYAQDAAeCeds;
+
+DEFINE LABEL 23
+eJzzYmBgKPCQDT3i0b8MyGS4Y+9bHuvvWw5iT4ssmPA4pnTK6dTSKXkZmd15GQGVhem+5XVJfhUPYqMb
+X0Rlds+MaJo7M6J/2evI6WvMYxdtqUxZvUsqY/UukP7nVeF1T6o7Fj6prpr+sCa9q7U+suFmfUiNcktI
+zfG2hFaJjuR2sc70royuimkZXfWz+Xoqpm3pzewOnxDduHxSTNOcaXWzps1YuBlkVs6K9C7nFf//g9ji
+QFp8xdf3IPaO1RH1KzbGNc/altZptqdiWsfe1vn390xcMWnnrHWLNs9aF7Zh2mqQuo1nFcLfXVMIf3xL
+P+n2Xc+StrvJ7T23SyZPuVE/+/OVjoX/LnQuYrjQsyT8fOv8NefrZwddrJnpfrV+9oPbM9ZqPViylWEU
+jIJhCgBu2ZCU;
+

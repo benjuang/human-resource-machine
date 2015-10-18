@@ -1,0 +1,16 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+-- NOTE: This does not qualify for the speed challenge.
+
+a:
+    INBOX   
+    JUMPN    b
+    JUMP     c
+b:
+    COPYTO   0
+    SUB      0
+    SUB      0
+c:
+    OUTBOX  
+    JUMP     a
+
+

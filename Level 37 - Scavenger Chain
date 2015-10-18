@@ -1,0 +1,14 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+b:
+    COPYTO   17
+    COPYFROM [17]
+    OUTBOX  
+    BUMPUP   17
+    COPYFROM [17]
+    JUMPN    a
+    JUMP     b
+
+
